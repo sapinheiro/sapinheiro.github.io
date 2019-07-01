@@ -4,9 +4,11 @@ import React, { Component } from 'react';
 class Education extends Component {
     render() {
         return (
-            <div>
+            <section id="education">
+                <div>
 
-            </div>
+                </div>
+            </section>
         );
     }
 }
