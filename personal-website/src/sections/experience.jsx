@@ -56,7 +56,7 @@ class Experience extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="education row">
                         <div className="four columns header-col">
                             <h1><span>Part-Time Experience</span></h1>
                         </div>
@@ -74,6 +74,28 @@ class Experience extends Component {
                                         Object-Oriented Design, and teamwork<br/>
                                         <span>&bull;</span> Nurtured their understanding of course concepts<br/>
                                         <span>&bull;</span> Graded homeworks, tests, and quizzes
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="education row">
+                        <div className="four columns header-col">
+                            <h1><span>Volunteer Experience</span></h1>
+                        </div>
+                        <div className="nine columns main-col">
+                            <div className="row item">
+                                <div className="twelve columns">
+                                    <h3>Bits & Bots</h3>
+                                    <p className="info">
+                                        Coordinator / Volunteer
+                                        <br/>
+                                        <em className="date">January 2019 - Present</em>
+                                    </p>
+                                    <p>
+                                        <span>&bull;</span> Developed open source curriculum in LaTeX, communicating complex ideas to children<br/>
+                                        <span>&bull;</span> Taught beginner robotics lessons in lower-income areas of Boston<br/>
+                                        <span>&bull;</span> Coordinated with public libraries, helped lead meetings
                                     </p>
                                 </div>
                             </div>
