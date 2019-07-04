@@ -38,7 +38,7 @@
       <file leaf-file-name="header.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sections/header.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="338">
               <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
             </state>
           </provider>
@@ -216,16 +216,15 @@
       <updated>1561134110423</updated>
       <workItem from="1561134114275" duration="2064000" />
       <workItem from="1561748469533" duration="398000" />
-      <workItem from="1561749196455" duration="23896000" />
+      <workItem from="1561749196455" duration="24145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26358000" />
+    <option name="totallyTimeSpent" value="26607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="174" y="56" width="1050" height="691" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,7 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/header.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="338">
           <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
         </state>
       </provider>
