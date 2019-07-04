@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "sampinheiro.com/precache-manifest.f207e00404d376fea6c69e74e42faa8b.js"
+  "/my-react-portfolio/precache-manifest.c32f890ab75328f4c5173cdc100e528e.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("sampinheiro.com/index.html", {
+workbox.routing.registerNavigationRoute("/my-react-portfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
