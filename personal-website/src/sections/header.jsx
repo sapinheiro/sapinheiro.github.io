@@ -19,13 +19,13 @@ class Header extends Component {
                 <div className="row banner">
                     <div className="banner-text">
                         <h1 className="responsive-headline">Sam Pinheiro</h1>
-                        <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>
+                        <h3 style={{color:'#fff', fontFamily:'sans-serif'}}>
                             I'm a graduate of Northeastern University's College of Computer and Information Science, receiving my Bachelor of Science in June 2019.
                             I'm currently looking for a full-time position. I've had previous experience as a Software Engineer with Charles River Development and Data Analyst for Schonfeld Strategic Advisors.
                             During off-time at school I've work as a teaching assistant for some the CS courses I've excelled
                             at. I also enjoy writing and volunteering with various community service groups.
 
-                            You can find the latest version of my resume <a href="/assets/resume.pdf">here</a>.
+                            You can find the latest version of my resume <a href="/assets/resume.pdf" style={{color: "#3399FF"}}>here</a>.
                         </h3>
                         <hr/>
                         <ul className="social">
@@ -35,14 +35,12 @@ class Header extends Component {
                             <li key="github">
                                 <a href="https://github.com/sapinheiro" target="_blank"><i className="fa fa-github"/></a>
                             </li>
+                            <li key="Email">
+                                <a href="mailto:sampinheiro9@gmail.com" target="_blank"><i className="fa fa-envelope"/></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-
-                <p className="scrolldown">
-                    <a className="smoothscroll" href="#projects"><i className="icon-down-circle"></i></a>
-                </p>
-
             </header>
         )
     }

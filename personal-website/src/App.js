@@ -13,8 +13,8 @@ class App extends Component {
                   <Header/>
                   <div id="colorlib-main">
                       <Projects/>
-                      <Education/>
                       <Experience/>
+                      <Education/>
                       <Skills/>
                   </div>
               </div>

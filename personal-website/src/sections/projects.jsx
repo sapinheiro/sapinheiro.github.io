@@ -6,7 +6,6 @@ class Projects extends Component {
         return (
             <section id="projects">
                 <h2>Projects</h2>
-                <h1>*Note: Some of my projects on github were requested by those I worked with to be private. Can be made public upon request.</h1>
                 <div className="row">
                     <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                         <div className="columns collapsed projects-item">
@@ -181,6 +180,7 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
+                <h1>*Note: Some of my projects on Github were requested by those I worked with to be private. Can be made public upon request.</h1>
             </section>
         );
     }
