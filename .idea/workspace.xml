@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21758a18-e9c3-4b52-a23d-ffc4a4e00791" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/img/tetris.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/tetris.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/header.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="projects.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sections/projects.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="2490">
               <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sections/header.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -66,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/sections/projects.jsx" />
+        <option value="$PROJECT_DIR$/src/sections/header.jsx" />
       </list>
     </option>
   </component>
@@ -188,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562274262250</updated>
-      <workItem from="1562274263547" duration="4687000" />
+      <workItem from="1562274263547" duration="4973000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4687000" />
+    <option name="totallyTimeSpent" value="4973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="167" y="48" width="1050" height="691" extended-state="0" />
@@ -304,8 +313,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sections/projects.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="2490">
           <caret line="166" column="38" selection-start-line="166" selection-start-column="38" selection-end-line="166" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sections/header.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="102" selection-start-line="24" selection-start-column="102" selection-end-line="24" selection-end-column="102" />
         </state>
       </provider>
     </entry>

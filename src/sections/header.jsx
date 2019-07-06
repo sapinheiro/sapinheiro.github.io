@@ -22,7 +22,7 @@ class Header extends Component {
                         <h3 style={{color:'#fff', fontFamily:'sans-serif'}}>
                             I'm a graduate of Northeastern University's College of Computer and Information Science, receiving my Bachelor of Science in June 2019.
                             I'm currently looking for a full-time position. I've had previous experience as a Software Engineer with Charles River Development and Data Analyst for Schonfeld Strategic Advisors.
-                            During off-time at school I've work as a teaching assistant for some the CS courses I've excelled
+                            During off-time at school I've worked as a teaching assistant for some of the CS courses I've excelled
                             at. I also enjoy writing and volunteering with various community service groups.
 
                             You can find the latest version of my resume <a href="/assets/resume.pdf" style={{color: "#3399FF"}}>here</a>.
