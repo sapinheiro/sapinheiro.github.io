@@ -124,8 +124,7 @@ class Projects extends Component {
                                 <div className="overlay">
                                     <div className="projects-item-meta">
                                         <h5>Raft Consensus Algorithm (Python)</h5>
-                                        <p>Implemented a version of the <a href="https://raft.github.io/">Raft
-                                            Protocol</a> that still works in lossy and unreliable networks.</p>
+                                        <p>Implemented a version of the <a href="https://raft.github.io/">Raft Protocol</a> that still works in lossy and unreliable networks.</p>
                                     </div>
                                 </div>
                             </div>
