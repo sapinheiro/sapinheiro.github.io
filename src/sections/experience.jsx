@@ -20,14 +20,14 @@ class Experience extends Component {
                                         <em className="date">July 2018 - December 2018</em>
                                     </p>
                                     <p>
-                                        <span>&bull;</span> Developed primarily on projects involving data processing,
-                                        visualization, and analysis<br/>
-                                        <span>&bull;</span> Fulfilled data science duties for team primarily involving
-                                        SQL, Q, and Excel<br/>
-                                        <span>&bull;</span> Updated company data as well as streamlining processes for
-                                        unmanageable legacy code<br/>
-                                        <span>&bull;</span> Collaborated with team on principal projects under strict
-                                        deadlines
+                                        <span>&bull;</span> Managed multiple technical projects simultaneously while
+                                        prioritizing based on evolving firm needs<br/>
+                                        <span>&bull;</span> Managed multiple technical projects simultaneously while
+                                        prioritizing based on evolving firm needs<br/>
+                                        <span>&bull;</span> Executed a wide range of data science duties primarily
+                                        involving the use of Python (pandas), SQL, Q, and Excel<br/>
+                                        <span>&bull;</span> Updated and maintained company data, and designed
+                                        streamlined processes / automation for legacy code<br/>
                                     </p>
                                 </div>
                             </div>
@@ -40,15 +40,15 @@ class Experience extends Component {
                                         <em className="date">January 2017 - June 2017</em>
                                     </p>
                                     <p>
-                                        <span>&bull;</span> Wrote software enchancements and fixed bugs through
-                                        Java/C#/SQL <br/>
-                                        <span>&bull;</span> Created, executed, and monitored Java unit and automation
-                                        tests within framework<br/>
-                                        <span>&bull;</span> Validated system enhancements, fixes, and user
-                                        workflows<br/>
-                                        <span>&bull;</span> Expedited employee workflows with utilities<br/>
+                                        <span>&bull;</span> Learned software and engineering management strategies;
+                                        provided technical and systems design support in the architecture, development,
+                                        implementation, testing, and deployment of software applications <br/>
+                                        <span>&bull;</span> Created and executed Java unit and automation tests within
+                                        framework<br/>
+                                        <span>&bull;</span> Validated system enhancements, fixes, and user processes;
+                                        expedited employee workflows with utilities<br/>
                                         <span>&bull;</span> Maintained development and test environments by upgrading
-                                        databases and servers<br/>
+                                        and maintaining databases and servers<br/>
                                         <span>&bull;</span> Gained experience in a number of financial areas namely
                                         trade order management
                                     </p>
@@ -72,8 +72,7 @@ class Experience extends Component {
                                     <p>
                                         <span>&bull;</span> Taught fellow students basic Java, higher-level
                                         Object-Oriented Design, and teamwork<br/>
-                                        <span>&bull;</span> Nurtured their understanding of course concepts<br/>
-                                        <span>&bull;</span> Graded homeworks, tests, and quizzes
+                                        <span>&bull;</span> Nurtured their understanding of design patterns<br/>
                                     </p>
                                 </div>
                             </div>
