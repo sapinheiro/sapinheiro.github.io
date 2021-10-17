@@ -10,25 +10,35 @@ class Projects extends Component {
                     <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                         <div className="columns collapsed projects-item">
                             <div className="item-wrap">
-                                <img src="/img/website.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Personal Website (React)</h5>
-                                        <p>This is the second iteration of my personal website. First version used basic
-                                            html and css, while my primary focus on this version was to develop through
-                                            React.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
                                 <img src="/img/adventure.jpg" className="item-img"/>
                                 <div className="overlay">
                                     <div className="projects-item-meta">
                                         <h5>Adventure Game (Python Engine)</h5>
                                         <p>I'm undertaking the totality of the coding and script-writing process for the
                                             development of a game. Freelancing for the art and other assets.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns collapsed projects-item">
+                            <div className="item-wrap">
+                                <img src="/img/bitwarden.png" className="item-img"/>
+                                <div className="overlay">
+                                    <div className="projects-item-meta">
+                                        <h5>Self-Hosting Bitwarden Server</h5>
+                                        <p>Set up my own server instance for password manager (Bitwarden) utilizing existing open-source Rust application.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="columns collapsed projects-item">
+                            <div className="item-wrap">
+                                <img src="/img/website.jpg" className="item-img"/>
+                                <div className="overlay">
+                                    <div className="projects-item-meta">
+                                        <h5>Personal Website (React)</h5>
+                                        <p>This is the second iteration of my personal website using React. Set up continuous deployment
+                                        through github pages and heroku.</p>
                                     </div>
                                 </div>
                             </div>
@@ -150,18 +160,6 @@ class Projects extends Component {
                                         <p>Simulates data interaction of a mock aquarium. Allows a user to manipulate
                                             the data and learn about the relationships between the various
                                             interconnecting entities.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/file.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Fuse File System (C)</h5>
-                                        <p>A file system created from FUSE API. Can create files, directories, hard
-                                            links, and perform simple file system commands.</p>
                                     </div>
                                 </div>
                             </div>

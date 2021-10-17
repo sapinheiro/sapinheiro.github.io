@@ -20,7 +20,6 @@ class Education extends Component {
                                         <em className="date">September 2015 - June 2019</em>
                                     </p>
                                     <p>
-                                        <b>GPA:</b> 3.46 / 4.0<br/>
                                         <b>Major GPA:</b> 3.60 / 4.0<br/>
                                         <b>Relevant Courses:</b><br/>
                                         <span>&bull;</span> Fundamentals of Computer Science I/II<br/>

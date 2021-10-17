@@ -20,10 +20,9 @@ class Header extends Component {
                     <div className="banner-text">
                         <h1 className="responsive-headline">Sam Pinheiro</h1>
                         <h3 style={{color:'#fff', fontFamily:'sans-serif'}}>
-                            I'm a graduate of Northeastern University's College of Computer and Information Science, receiving my Bachelor of Science in August 2019.
-                            I'm currently looking for a full-time position. I've had previous experience as a Software Engineer with Charles River Development and Data Analyst for Schonfeld Strategic Advisors.
-                            During off-time at school, I've worked as a teaching assistant for some of the CS courses I've excelled
-                            at. I also enjoy writing and volunteering with various community service groups.
+                            I'm a graduate of Northeastern University's College of Computer and Information Science, receiving my Bachelor of Science in May 2019.
+                            I'm currently looking for a Senior Software Engineer position. I've had 3 years of experience across the government, financial, and trading
+                            industries. 
 
                             You can find the latest version of my resume <a href="/assets/resume.pdf" style={{color: "#3399FF"}}>here</a>.
                         </h3>
