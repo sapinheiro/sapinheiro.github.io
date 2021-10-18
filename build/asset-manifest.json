@@ -1,13 +1,13 @@
 {
-  "main.css": "sampinheiro.com/static/css/main.a2c77d10.chunk.css",
-  "main.js": "sampinheiro.com/static/js/main.c4c343f6.chunk.js",
-  "main.js.map": "sampinheiro.com/static/js/main.c4c343f6.chunk.js.map",
-  "static/js/1.6eb6405c.chunk.js": "sampinheiro.com/static/js/1.6eb6405c.chunk.js",
-  "static/js/1.6eb6405c.chunk.js.map": "sampinheiro.com/static/js/1.6eb6405c.chunk.js.map",
-  "runtime~main.js": "sampinheiro.com/static/js/runtime~main.77d44184.js",
-  "runtime~main.js.map": "sampinheiro.com/static/js/runtime~main.77d44184.js.map",
-  "static/css/main.a2c77d10.chunk.css.map": "sampinheiro.com/static/css/main.a2c77d10.chunk.css.map",
-  "index.html": "sampinheiro.com/index.html",
-  "precache-manifest.f207e00404d376fea6c69e74e42faa8b.js": "sampinheiro.com/precache-manifest.f207e00404d376fea6c69e74e42faa8b.js",
-  "service-worker.js": "sampinheiro.com/service-worker.js"
+  "main.css": "/static/css/main.a2c77d10.chunk.css",
+  "main.js": "/static/js/main.9e0883c4.chunk.js",
+  "main.js.map": "/static/js/main.9e0883c4.chunk.js.map",
+  "static/js/1.6eb6405c.chunk.js": "/static/js/1.6eb6405c.chunk.js",
+  "static/js/1.6eb6405c.chunk.js.map": "/static/js/1.6eb6405c.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.a2c77d10.chunk.css.map": "/static/css/main.a2c77d10.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.ceedc5d662c8ff27e5d99bd0f595db1f.js": "/precache-manifest.ceedc5d662c8ff27e5d99bd0f595db1f.js",
+  "service-worker.js": "/service-worker.js"
 }
