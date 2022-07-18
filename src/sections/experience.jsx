@@ -20,11 +20,15 @@ class Experience extends Component {
                                         <em className="date">2019 - Present</em>
                                     </p>
                                     <p>
-                                        <span>&bull;</span>Collaborates with software engineers and developers on re-platforming
+                                        <span>&bull;</span>Collaborated with software engineers and developers on re-platforming
                                          the Records Management System; cross-functionally collaborates with Project Managers,
                                          Product Owners, QA, Customers, and Dev-Ops for prioritization, development, and testing.<br/>
                                         <span>&bull;</span>Lead back-end engineer and code contributor on team for brand new
                                          Jail Management System--a Progressive Web App using Spring Framework. <br/>
+                                        <span>&bull;</span>Drove forward new authentication/IDP system for platform, taking
+                                         ownership and integrating Keycloak with the platform.<br/>
+                                        <span>&bull;</span>Developed strategy for highly customizable form system to read and collect
+                                         custom data for diverse customers with highly variant requirements. <br/>
                                         <span>&bull;</span>Developed and expedited high-priority fixes and features for clients
                                          that affected mission-critical applications. Organized patches, production deploys, and
                                          attended hackathons on-site with customers to address needs in real-time. <br/>

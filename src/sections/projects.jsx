@@ -58,47 +58,10 @@ class Projects extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/tetris.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Tetris Game (Processing)</h5>
-                                        <p>Developed a variation of a Tetris game that utilized Decision Tree
-                                            Learning to assign various "personalities" to the pieces as the game
-                                            went on.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="row">
                     <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/music.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Music Editor (Java)</h5>
-                                        <p>A music editor made using the Model-View-Controller pattern and
-                                            object-oriented practices.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/dogs.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Animal Shelter Website (React)</h5>
-                                        <p>Sample website created to learn React. Can interact with a database and deals
-                                            with several CRUD permissions.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div className="columns collapsed projects-item">
                             <div className="item-wrap">
                                 <img src="/img/shell.png" className="item-img"/>
@@ -113,53 +76,11 @@ class Projects extends Component {
                         </div>
                         <div className="columns collapsed projects-item">
                             <div className="item-wrap">
-                                <img src="/img/pension.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Pension Calculator</h5>
-                                        <p>An updated retirement calculator made for the MSRB. Main goal was to simplify
-                                            the experience for the user as much as possible. Worked on both the
-                                            front-end and back-end.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
                                 <img src="/img/raft.jpg" className="item-img"/>
                                 <div className="overlay">
                                     <div className="projects-item-meta">
                                         <h5>Raft Consensus Algorithm (Python)</h5>
                                         <p>Implemented a version of the <a href="https://raft.github.io/">Raft Protocol</a> that still works in lossy and unreliable networks.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/memory.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Dynamic Memory Allocator (C)</h5>
-                                        <p>A dynamic and fast memory allocator to emulate the behavior of malloc in the
-                                            C library.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/aquarium.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Aquarium Simulator (SQL/Ruby on Rails)</h5>
-                                        <p>Simulates data interaction of a mock aquarium. Allows a user to manipulate
-                                            the data and learn about the relationships between the various
-                                            interconnecting entities.</p>
                                     </div>
                                 </div>
                             </div>
