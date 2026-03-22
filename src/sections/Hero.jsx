@@ -7,7 +7,7 @@ function Hero() {
         Sam <span className="accent">Pinheiro</span>
       </h1>
       <p className="tagline">
-        Senior Software Engineer and AI-first developer with 7+ years of experience
+        Senior Software Engineer and AI-first developer with 8+ years of experience
         building scalable systems across social platforms, identity, public safety, and fintech.
         I maximize output with AI-driven workflows and tooling to ship faster and more reliably.
       </p>
