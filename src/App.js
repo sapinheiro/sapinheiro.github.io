@@ -1,26 +1,30 @@
-import React, { Component } from 'react';
-import Header from './sections/header'
-import Projects from './sections/projects'
-import Education from './sections/education'
-import Experience from './sections/experience'
-import Skills from './sections/skills'
+import React from 'react';
+import './App.css';
+import Nav from './sections/Nav';
+import Hero from './sections/Hero';
+import Experience from './sections/Experience';
+import Projects from './sections/Projects';
+import Education from './sections/Education';
+import Skills from './sections/Skills';
+import Feedback from './sections/Feedback';
 
-class App extends Component {
-  render() {
-      return (
-          <div id="colorlib-page">
-              <div id="container-wrap">
-                  <Header/>
-                  <div id="colorlib-main">
-                      <Experience/>
-                      <Projects/>
-                      <Education/>
-                      <Skills/>
-                  </div>
-              </div>
-          </div>
-      );
-  }
+function App() {
+  return (
+    <>
+      <Nav />
+      <div className="site-wrapper">
+        <Hero />
+        <Experience />
+        <Projects />
+        <Education />
+        <Skills />
+        <Feedback />
+        <footer className="footer">
+          Sam Pinheiro &middot; {new Date().getFullYear()}
+        </footer>
+      </div>
+    </>
+  );
 }
 
 export default App;

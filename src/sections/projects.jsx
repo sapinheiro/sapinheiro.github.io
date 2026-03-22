@@ -1,97 +1,48 @@
-import React, {Component} from 'react';
+import React from 'react';
 
+const projects = [
+  {
+    name: 'In Living Memory',
+    tech: 'Ren\'Py / Python',
+    description: 'A 250,000+ word narrative-driven visual novel, solo-developed from the ground up — writing, programming, branching dialogue systems, and production.',
+  },
+  {
+    name: 'Brevio',
+    tech: 'Next.js / TypeScript / Supabase / Claude API',
+    description: 'AI-powered SaaS platform that consolidates ad performance data across Meta, Google, and other platforms into a unified dashboard. Features natural language analytics powered by Claude, automated anomaly detection, shareable client reports, and multi-tenant team management.',
+  },
+  {
+    name: 'Self-Hosted Password Manager',
+    tech: 'Rust / Docker',
+    description: 'Self-hosted Bitwarden server instance using an open-source Rust implementation.',
+  },
+  {
+    name: 'Raft Consensus Algorithm',
+    tech: 'Python',
+    description: 'Implementation of the Raft distributed consensus protocol that operates correctly in lossy and unreliable networks.',
+  },
+  {
+    name: 'Unix Shell',
+    tech: 'C',
+    description: 'A bash-like shell implementation supporting piping, redirects, and standard command line operations.',
+  },
+];
 
-class Projects extends Component {
-    render() {
-        return (
-            <section id="projects">
-                <h2>Projects</h2>
-                <div className="row">
-                    <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/adventure.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Adventure Game (Python Engine)</h5>
-                                        <p>I'm undertaking the totality of the coding and script-writing process for the
-                                            development of a game. Freelancing for the art and other assets.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/bitwarden.png" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Self-Hosting Bitwarden Server</h5>
-                                        <p>Set up my own server instance for password manager (Bitwarden) utilizing existing open-source Rust application.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/website.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Personal Website (React)</h5>
-                                        <p>This is the second iteration of my personal website using React. Set up continuous deployment
-                                        through github pages and heroku.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/bnb.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Bits & Bots</h5>
-                                        <p>I develop open source curriculum and taught beginner robotics lessons in
-                                            lower-income areas of Boston. Our goal is to promote an interest in STEM
-                                            fields to 3rd-8th grade students around the US. You can find more
-                                            information on <a href="https://bitsnbots.weebly.com/">our website.</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div id="projects-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/shell.png" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Unix Shell (C)</h5>
-                                        <p>A bash implementation that supports command line operations like piping and
-                                            redirects.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="columns collapsed projects-item">
-                            <div className="item-wrap">
-                                <img src="/img/raft.jpg" className="item-img"/>
-                                <div className="overlay">
-                                    <div className="projects-item-meta">
-                                        <h5>Raft Consensus Algorithm (Python)</h5>
-                                        <p>Implemented a version of the <a href="https://raft.github.io/">Raft Protocol</a> that still works in lossy and unreliable networks.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h1>*Note: Some of my projects on Github were requested by those I worked with to be private. Can be
-                    made public upon request.</h1>
-            </section>
-        );
-    }
+function Projects() {
+  return (
+    <section id="projects">
+      <h2 className="section-title">Projects</h2>
+      <div className="projects-grid">
+        {projects.map((p) => (
+          <div className="project-card" key={p.name}>
+            <h3>{p.name}</h3>
+            <div className="tech">{p.tech}</div>
+            <p>{p.description}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
