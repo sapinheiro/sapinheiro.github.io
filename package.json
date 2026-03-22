@@ -13,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "rm -rf docs && cp -r build docs && cp CNAME docs/CNAME"
   },
   "eslintConfig": {
     "extends": "react-app"
