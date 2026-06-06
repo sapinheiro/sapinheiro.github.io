@@ -10,6 +10,7 @@ const experiences = [
       'Owned Youth Experiences as tech lead across Facebook, Instagram, Messenger, and Threads — delivering regulatory compliance flows for Youth Consent, Parental Consent, Age Verification, and Teen Rollout across multiple jurisdictions including Australia, Texas, Florida, and the EU, unlocking new growth channels while meeting global legal requirements.',
       'Resolved performance bottlenecks across all registration flows, culminating in over 1,000,000 MAU retention.',
       'Ranked top 1% across Meta in AI adoption; built AI-powered context files and workflows across the org to accelerate developer onboarding, automate repetitive tasks, and drive significant engineering time savings.',
+      'Selected for Meta\'s Applied AI team to author high-quality training tasks used to improve model evaluations, directly contributing to the development and benchmarking of frontier AI models.',
       'Mentored junior engineers with structured ramp-up plans and delivered tech talks across the org; established as the go-to cross-org subject matter expert for registration and youth compliance.',
       'Proactively assisted and mitigated 8+ SEVs outside of oncall rotation, earning recognition as an org-wide reliability leader.',
     ],
